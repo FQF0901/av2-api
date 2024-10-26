@@ -1,8 +1,9 @@
 name: av2
-channels:
-  - pytorch
-  - conda-forge
+# channels:
+#   - pytorch
+#   - conda-forge
 dependencies:
+  - python=3.10
   - av
   - click
   - joblib
